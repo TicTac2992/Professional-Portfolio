@@ -1,25 +1,5 @@
-@media screen and (max-width: 750px) {
-    body {
-      background-color: burlywood;
-      background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3b0777d0c8&attid=0.1&permmsgid=msg-f:1666890048243451629&th=1721fbaad52f46ed&view=att&disp=safe);
-      background-size: 100%;
-    }
-}
-
-@media screen and (min-width: 750px) {
-    body {
-      background-color: tan;
-      background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3b0777d0c8&attid=0.2&permmsgid=msg-f:1666890048243451629&th=1721fbaad52f46ed&view=att&disp=safe);
-      background-size: 100%;
-    }
-}
-
-@media screen and (min-width: 1250px) {
-    body {
-      background-color: beige;
-      background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=3b0777d0c8&attid=0.3&permmsgid=msg-f:1666890048243451629&th=1721fbaad52f46ed&view=att&disp=safe);
-      background-size: 100%;
-    }
+* {
+  box-sizing: border-box;
 }
 
 h1 { font-family: 'Dancing Script', cursive;
@@ -30,5 +10,5 @@ h2 { font-family: 'Dancing Script', cursive;
     font-size: 12px
     }
 
-.form-group {font-family: 'Dancing Script', cursive;
-            }
+.form-group { font-family: 'Dancing Script', cursive;
+}
