@@ -2,14 +2,48 @@
   box-sizing: border-box;
 }
 
-h1 { font-family: 'Dancing Script', cursive;
-    text-align: center;
-    font-size: 32px;
+.container {
+  padding: 50px;
 }
 
-h2 { font-family: 'Dancing Script', cursive;
-    font-size: 24px
+h1 { font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 { font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
     }
 
 .form-group { font-family: 'Dancing Script', cursive;
+}
+
+.portfolioList ul, li
+{
+  display: inline;
+}
+
+li
+{
+  border: solid 1px white;
+  padding: 3px;
+  margin: 2px;
+  background-color: #8ce768;
+  text-align-last: left;
+}
+
+body {
+  background-color: rgba(205, 223, 205, 0.3);
+}
+
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.img-fluid {
+  filter: drop-shadow(30px 10px 4px #575758);
+  border: solid 8px white;
 }
