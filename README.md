@@ -11,7 +11,7 @@
   ## Description
   This is my updated portfolio showcasing the work I have accomplished while enrolled in the Part-Time Full Stack Web Development Bootcamp at Vanderbilt University.
   ## GitHub Pages
-  ![View it on GitHub Pages!](https://tictac2992.github.io/hw2-responsive-portfolio/)
+  [View it on GitHub Pages!](https://tictac2992.github.io/hw2-responsive-portfolio/)
   ## Screenshot
   ![Image](https://raw.githubusercontent.com/TicTac2992/hw2-responsive-portfolio/master/images/App_Screenshot.PNG)
   ## License
