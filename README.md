@@ -2,12 +2,15 @@
   ![License](https://img.shields.io/badge/License-%202.0-blue.svg)
   ## Table of Contents
   * [Description](#Description)
+  * [Screenshot](#Screenshot)
   * [License](#License)
   * [Contributing](#Contributing)
   * [Tests](#Tests)
   * [Questions](#Questions)
   ## Description
   This is my updated portfolio showcasing the work I have accomplished while enrolled in the Part-Time Full Stack Web Development Bootcamp at Vanderbilt University.
+  ## Screenshot
+  ![Image](https://raw.githubusercontent.com/TicTac2992/hw2-responsive-portfolio/master/images/App_Screenshot.PNG)
   ## License
   GPLv3   ![License](https://img.shields.io/badge/License-%202.0-blue.svg)
   ## Contributing
