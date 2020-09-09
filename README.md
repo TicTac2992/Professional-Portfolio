@@ -2,7 +2,7 @@
   ![License](https://img.shields.io/badge/License-%202.0-blue.svg)
   ## Table of Contents
   * [Description](#Description)
-  * [GitHub Pages](#GitHub Pages)
+  * [GitHub](#GitHub)
   * [Screenshot](#Screenshot)
   * [License](#License)
   * [Contributing](#Contributing)
