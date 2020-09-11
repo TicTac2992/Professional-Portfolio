@@ -46,20 +46,20 @@
     <content>
         <div class="container-fluid">
                 <div class="card">
-                    <form>
+                    <form id="fr1">
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Name:</label>
-                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                            <input type="text" class="form-control" id="tb1" placeholder="Name">
                         </div>
                         <div class="form-group">
                         <label for="exampleFormControlInput1">Email:</label>
-                        <input type="email" class="form-control" id="jvarnum3@gmail.com" placeholder="janedoe@email.com">
+                        <input type="text" class="form-control" id="tb2" placeholder="janedoe@email.com">
                         </div>
                         <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                        <textarea class="form-control" id="tb3" rows="4"></textarea>
                         </div>
-                        <button>Submit</button>
+                        <input type="button" id="bt1" value="Send">
                     </form>
                 </div>
         </container>
@@ -85,5 +85,21 @@
         </div>
     </div>
 </footer>
+
+<script>
+    $(document).ready(function() {
+    $('#bt1').click(function() {
+        $('#fr1').attr('action','mailto:jvarnum3@gmail.com?subject=' + $('#tb1').val() + '&body=' + $('#tb2').val() + $('#tb3').val());
+
+        $('#fr1').submit();
+
+        });
+    });
+
+</script>
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous">
+</script>
 
 </html>
